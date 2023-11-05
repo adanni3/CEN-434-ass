@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./jquery-3.7.1.slim.js">
+    <style>
+        *{
+            background-image: url(./);
+            outline: none;
+            box-sizing: border-box;
+        }
+        body,html{
+            
+            background-repeat: no-repeat;
+            background-image: linear-gradient(to bottom right,rgb(186,69,90), rgb(77, 77, 179), rgb(192, 192, 46));
+            margin: 0%;
+            height: 1300px;
+            background-size: contain;
+        }
+        .back{
+            background-image: url(./Women\ volleyball\ players\ in\ watercolor\ -\ Fine\ Art\ Print\ Glicee\ Poster\ Home\ Watercolor\ sports\ Gift\ Room\ Illustration\ Wall\ -\ SKU\ 2315.jpg);
+            filter: blur(5px);
+            width: 70%;
+
+        }
+        #main{
+            width: 70%;
+            margin: 150px auto;            
+            background-image: url(./Women\ volleyball\ players\ in\ watercolor\ -\ Fine\ Art\ Print\ Glicee\ Poster\ Home\ Watercolor\ sports\ Gift\ Room\ Illustration\ Wall\ -\ SKU\ 2315.jpg);
+            background-color: transparent;
+            border: 2px solid black;
+            box-shadow: 2px 2px 5px;
+            padding: 10px 20px;
+            font-weight: 300px;
+        }
+        form{
+            font-weight: 600;
+        }
+        .o1 p{
+            margin-top: 0%;
+        }
+        section {
+            text-align: center;
+            background-color: transparent;
+            
+        }
+        section h1{
+            font-size: 50px;
+            background-color: transparent;
+        }
+        .inp{
+            display: flex;
+            justify-content: space-around;
+        }
+        fieldset{
+            margin-top: 25px;
+        }
+        fieldset p{
+            background-color: transparent;
+        }
+        form input{
+            background-color: rgb(184, 197, 193);
+            border-radius: 15px; 
+            padding: 7px;           
+        }
+        legend{
+            margin: auto;
+            text-transform: capitalize;
+            font-size: large;
+            font-weight: 300;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button{
+            margin: 20px 420px;
+            border: 2px solid transparent;
+            border-radius: 20px;
+            padding: 10px 40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: medium;
+            background-color: rgb(238, 166, 206);
+            box-shadow: 2px 2px 5px;
+        }
+        button:hover{
+            background-color:rgb(238, 76, 165) ;
+        }
+        #cool{
+            border: 2px solid black;
+            border-radius: 15PX;
+            padding: 10px;
+            height: 30px;
+            background-color: aquamarine;
+        }
+    </style>
+    <script src="./jquery-3.7.1.slim.js" >     
+    </script>
+</head>
+<body>
+    <div class="back"></div>
+    <div id="main" style="background-color: aliceblue;">
+    <section class="o1">
+        <h1>Volleyball Team</h1>
+        <p><b>FORMO</b> <i>creative forms for your pleasure...</i></p><span id="cool">cool</span>
+    </section>
+    <section>
+        <h2></h2>
+    </section>
+    <form action="blank">
+        <div class="inp">
+        <label for="First">First Name:</label>
+        <input id="First" type="text">
+        <label for="last">Last Name:</label>
+        <input type="text" id="last">
+        <label for="course">Course of Study:</label>
+        <input type="text" id="course">
+        </div>
+        <fieldset>
+            <legend>Help us Get to know you</legend>
+            <p>Have you Played volleyball before?</p> 
+            <input type="radio" id="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="No">
+            <label for="No">No</label> <br>
+            <p>If yes, what did you play as?</p>
+            <input type="radio" id="setter">
+            <label for="setter">Setter</label>
+            <input type="radio" id="hitter">
+            <label for="hitter">Hitter</label> 
+            <input type="radio" id="libero">
+            <label for="libero">Libero</label>
+            <input type="radio" id="ds">
+            <label for="ds">D.S(Defensive Specialist)</label>
+            <input type="radio" id="none">
+            <label for="none">I haven't played before</label> <br>
+            <p>If no, do you the positon you want to play?</p>
+            <input type="radio" id="yes2">
+            <label for="yes2">Yes</label>
+            <input type="radio" id="No2">
+            <label for="No2">No</label> 
+        </fieldset>
+        <fieldset>
+            <legend>Help us Get to know you</legend>
+            <p>Have you Played volleyball before?</p>
+            <input type="radio" id="yes3">
+            <label for="yes3">Yes</label>
+            <input type="radio" id="No3">
+            <label for="No3">No</label> <br>
+            <p>If yes, what did you play as?</p>
+            <input type="radio" id="setter2">
+            <label for="setter2">Setter</label>
+            <input type="radio" id="hitter2">
+            <label for="hitter2">Hitter</label>
+            <input type="radio" id="libero2">
+            <label for="libero2">Libero</label>
+            <input type="radio" id="ds2">
+            <label for="ds">D.S(Defensive Specialist)</label>
+            <input type="radio" id="none2">
+            <label for="none2">I haven't played before</label> <br>
+            <p>If no, do you the positon you want to play?</p>
+            <input type="radio" id="yes4">
+            <label for="yes4">Yes</label>
+            <input type="radio" id="No4">
+            <label for="No4">No</label>
+        </fieldset>
+        <fieldset>
+            <legend>Help us Get to know you</legend>
+            <p>Have you Played volleyball before?</p>
+            <input type="radio" id="yes5">
+            <label for="yes5">Yes</label>
+            <input type="radio" id="No5">
+            <label for="No5">No</label> <br>
+            <p>If yes, what did you play as?</p>
+            <input type="radio" id="setter3">
+            <label for="setter3">Setter</label>
+            <input type="radio" id="hitter3">
+            <label for="hitter3">Hitter</label>
+            <input type="radio" id="libero3">
+            <label for="libero3">Libero</label>
+            <input type="radio" id="ds3">
+            <label for="ds3">D.S(Defensive Specialist)</label>
+            <input type="radio" id="none3">
+            <label for="none3">I haven't played before</label> <br>
+            <p>If no, do you the positon you want to play?</p>
+            <input type="radio" id="yes6">
+            <label for="yes6">Yes</label>
+            <input type="radio" id="No6">
+            <label for="No6">No</label>
+        </fieldset>
+        <button type="submit">SUBMIT</button>
+    </form>
+</div>   
+</body>
+</html>
